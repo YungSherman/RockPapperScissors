@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Rock/Papper/Scissors</title>
+</head>
+<body>
+  <header>
+    <h1>ROCK PAPPER SCISSORS</h1>
+  </header>
+  <div class="main-div">
+    <h2 class="choose" id="result">Choose your weapon</h2>
+    <h3 class="rules" id="explain">First to win 5 points wins the game</h3>
+    <div class="players-div">
+      <div class="player-div">
+        <div class="sign" id="player-icon">?</div>
+        <h2>Player: <span id="score-player"></span></h2>
+      </div>
+      <div class="computer-div">
+        <div class="sign" id="computer-icon">?</div>
+        <h2>Computer: <span id="score-computer"></span></h2>
+      </div>
+    </div>
+    <button class="btn-replay" id="btn-replay">Play again</button>
+    <div class="buttons-div">
+      <button id="btn-rock" class="icon-background">
+        <i class="fa-solid fa-hand-back-fist"></i>
+      </button>
+      <button id="btn-papper" class="icon-background">
+        <i class="fa-solid fa-hand"></i>
+      </button>
+      <button id="btn-scissors" class="icon-background">
+        <i class="fa-solid fa-hand-scissors"></i>
+      </button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
